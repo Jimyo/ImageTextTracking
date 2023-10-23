@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+# Created by https://www.toptal.com/developers/gitignore/api/dotnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+.vs
+Properties/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# End of https://www.toptal.com/developers/gitignore/api/dotnetcore
